@@ -18,4 +18,12 @@ function test_input($data) {
   return $data;
 }
 
+echo "Nome: " . $name . "<br>";
+echo "Email: " . $email . "<br>";
+echo "Telefone: " . $phone . "<br>";
+echo "Sexo: " . $sexo . "<br>";
+
+
+
+
 ?>
