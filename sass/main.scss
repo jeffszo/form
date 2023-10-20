@@ -25,14 +25,15 @@ form{
     }
 
     label{
-        margin: 4px 0 2px 0;
+        margin: 8px 0 2px 0;
         font-size: 0.9rem;
         font-weight: 400;
     }
 
     .input,
     select{
-        border: 2px solid transparent;
+        border: 2px solid;
+        border-radius: 0;
         display: flex;
         justify-content: center;
         align-items: center;

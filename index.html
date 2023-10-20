@@ -16,14 +16,14 @@
 <body>
     <form action="http://localhost/form/server/connect.php" method="post" id="form">
         <h1>Formulário</h1>
-        <label for="">Nome:
+        <label id="nameLabel" for="">Nome:
         </label>
-        <input minlength="6" required placeholder="Digite o seu nome" class="input required" type="text" name="name">
-        <label for="">Email:</label>
-        <input required placeholder="Digite o seu email" class="input" type="text" name="email">
-        <label for="">Telefone:</label>
-        <input required placeholder="Digite o seu número" class="input" type="number" name="phone" maxlength="11">
-        <label for="sexo">Sexo:
+        <input required placeholder="Digite o seu nome" class="input required" type="text" id="nameInput" name="name">
+        <label id="emailLabel" for="">Email:</label>
+        <input required placeholder="Digite o seu email" class="input" type="text" name="email" id="emailInput">
+        <label id="phoneLabel" for="">Telefone:</label>
+        <input required placeholder="Digite o seu número" class="input" type="number" name="phone" id="phoneInput">
+        <label id="sexoLabel" for="sexo">Sexo:
         </label>
         <select name="sexo">
             <option value="Masculino">Masculino</option>

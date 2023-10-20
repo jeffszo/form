@@ -23,13 +23,14 @@ form h1 {
   margin: 0 0 1.5rem 0;
 }
 form label {
-  margin: 4px 0 2px 0;
+  margin: 8px 0 2px 0;
   font-size: 0.9rem;
   font-weight: 400;
 }
 form .input,
 form select {
-  border: 2px solid transparent;
+  border: 2px solid;
+  border-radius: 0;
   display: flex;
   justify-content: center;
   align-items: center;
