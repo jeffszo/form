@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-align: center;
+  background-color: #111111;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 9rem 0;
+}
+form h1 {
+  margin: 0 0 1.5rem 0;
+}
+form label {
+  margin: 4px 0 2px 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+form .input,
+form select {
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem 0 0 0;
+  height: 2.3rem;
+  padding: 0.5rem;
+  width: 19rem;
+}
+form #button {
+  background-color: #986dff;
+  color: #fff;
+  border: transparent;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0.8rem;
+  margin: 2rem 0 0 0;
+  transition: all ease 0.3s;
+}
+form #button:hover {
+  background-color: #fff;
+  color: #5a189a;
+  transition: all ease 0.3s;
+}/*# sourceMappingURL=main.css.map */
